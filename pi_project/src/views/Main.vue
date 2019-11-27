@@ -1,118 +1,71 @@
 <template>
-  <v-content >
-    <v-container grid-list-md text-xs-center>
+  <v-content v-if="pali_content" id="kurac">
     <Navbar />
+    <v-row class="text--center mt-3 display-3 justify-center">Beograd</v-row>
+    <v-row
+      class="justify-center mt-5" 
+    >Temperatura u Beogradu je trenutno : {{this.vreme.main.temp}} C</v-row>
+    <v-row class="justify-center mt-5">Vlaznost vazduha je : {{this.vreme.main.humidity}} %</v-row>
+    <v-row class="justify-center mt-5">Pritisak je: {{this.vreme.main.pressure}} mBar-a</v-row>
+    <v-row class="justify-center mt-5">Vreme je pretezno: {{this.vreme.weather[0].description}}</v-row>
+    <v-row class="justify-center mt-5">Vetar duva brzinom od: {{this.vreme.wind.speed}} m/S</v-row>
 
-    <v-layout row wrap >
-      <h1 class="headline grey--text ">Control you Pis</h1>
-    </v-layout>
 
-    <v-layout row wrap >
-      <v-flex xs5 flat>
-        <v-card flat>
-          <v-card-text :class=" `ma-1 ${btn1_clicked}` " v-on:click="btn1_clicked=!btn1_clicked">
-            Ulazna Vrata
-          </v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs5>
-        <v-card flat>
-          <v-card-text :class=" `ma-1 ${btn2_clicked}` "  v-on:click="btn2_clicked=!btn2_clicked">
-           Decija Soba
-          </v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs5>
-        <v-card flat>
-          <v-card-text :class=" `ma-1 ${btn3_clicked}` " v-on:click="btn3_clicked=!btn3_clicked">
-           Hodnik
-          </v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs5>
-        <v-card flat>
-          <v-card-text :class=" `ma-1 ${btn4_clicked}` " v-on:click="btn4_clicked=!btn4_clicked">
-            Kuhinja
-          </v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs5>
-        <v-card flat>
-          <v-card-text :class=" `ma-1 ${btn5_clicked}` " v-on:click="btn5_clicked=!btn5_clicked">
-            Terasa 1
-          </v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs5>
-        <v-card flat>
-          <v-card-text :class=" `ma-1 ${btn6_clicked}` " v-on:click="btn6_clicked=!btn6_clicked">
-            Terasa 2
-          </v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs5>
-        <v-card flat>
-          <v-card-text :class=" `ma-1 ${btn7_clicked}`  " v-on:click="btn7_clicked=!btn7_clicked">
-           Dnevna Soba
-          </v-card-text>
-        </v-card>
-      </v-flex>
-      <v-flex xs5>
-        <v-card flat> 
-          <v-card-text :class=" `ma-1 ${btn8_clicked}` " v-on:click="btn8_clicked=!btn8_clicked">
-            Spavaca Soba
-          </v-card-text>
-        </v-card>
-      </v-flex>
-    </v-layout>
 
-    <v-switch @click="promeni_ME" :label="label" >
-      <v-switch v-model="switch1"></v-switch>
-    </v-switch>
-    </v-container>
+    <v-row v-if="ima_kise" class="justify-center mt-5">
+      <v-img
+        src="../../images/rain.jpg"
+        
+        aspect-ratio="1"
+        class="grey lighten-2"
+        max-width="500"
+        max-height="500"
+      ></v-img>
+    </v-row>
+    <v-row v-if="broken_clouds" class="justify-center mt-5">
+      <v-img
+        src="../../images/broken_clouds.png"
+        
+        aspect-ratio="1"
+        class="grey lighten-2"
+        max-width="500"
+        max-height="500"
+      ></v-img>
+    </v-row>
+    <i class="material-icons " title>cloud_queue</i>
   </v-content>
 </template>
 
 <script>
 import Navbar from "../components/Navbar";
+import axios from "axios";
 export default {
   name: "Main",
   components: { Navbar },
   data: () => ({
-    btn1_clicked: false,
-    btn2_clicked: false,
-    btn3_clicked: false,
-    btn4_clicked: false,
-    btn5_clicked: false,
-    btn6_clicked: false,
-    btn7_clicked: false,
-    btn8_clicked: false,
-    switch1: false,
-    label: "Pogasi ih sve , Majku im jebem",
-
-    lorem: `Lorem ipsum dolor sit amet, mel at clita quando. Te sit oratio vituperatoribus, nam ad ipsum posidonium mediocritatem, explicari dissentiunt cu mea. Repudiare disputationi vim in, mollis iriure nec cu, alienum argumentum ius ad. Pri eu justo aeque torquatos.`
+    vreme: [],
+    pali_content:false,
+    ima_kise:false,
+    broken_clouds:false
   }),
-  methods: {
-    controlClicked() {
-      this.clicked = true;
-    },
-    promeni_ME() {
-      if (this.label != "") {
-        this.label = "";
-        this.btn1_clicked = false;
-        this.btn2_clicked = false;
-        this.btn3_clicked = false;
-        this.btn4_clicked = false;
-        this.btn5_clicked = false;
-        this.btn6_clicked = false;
-        this.btn7_clicked = false;
-        this.btn8_clicked = false;
-      } else {
-        this.label = "Pogasi ih sve , Majku im jebem";
-      }
-    },
-    click_One() {},
-    
+  methods: {},
+  mounted() {
+    axios
+      .get(
+        "https://api.openweathermap.org/data/2.5/weather?q=Belgrade,Serbia&APPID=cb0aeb43b8923a51cfbda7edaf4ac7c6&units=metric"
+      )
+      .then(result => {
+        this.vreme = result.data;
+        this.pali_content=true // oce da mi izbaci
+                                // gresku jer ne dobije podatke sa axiosa a
+                                // vec je iscrtao sve elemente na strani i zvajzne
+          // if(this.vreme.weather[0].description.includes("rain")){
+          //   this.ima_kise=true;
+          // }
+          // if(this.vreme.weather[0].description.includes("clouds")){
+          //   this.broken_clouds=true;
+          // }
+      });
   }
 };
 </script>
@@ -123,5 +76,10 @@ export default {
 }
 .v-card__text.true {
   background-color: green;
+}
+#kurac{
+  /* background-image: url("../../images/background.jpg");
+  background-size: 100% 100% */
+
 }
 </style>

@@ -1,0 +1,2769 @@
+{
+    "Ident": "04b3de85-5da7-4f34-bbef-afc9073a3f47",
+    "OIdent": "56529f2b-a6a7-4ae1-8ccb-ff33f8299149",
+    "UName": "Test Unit",
+    "BaseImgUrl": "https://devlimages.tenkites.com/",
+    "SkinImgUrl": "http://devl.tkmenus.com/skins/tenkites/images/",
+    "BasePdfUrl": "http://devldownload.tkmenus.com/Tenkites/pdf/current/",
+    "Currency": "£",
+    "Intols": [
+        {
+            "Id": 52,
+            "Desc": "Vegan",
+            "Img": "brand/sample1//DietaryImage/vegan_32.png",
+            "Tooltip": "Suitable for Vegans",
+            "sname": ""
+        },
+        {
+            "Id": 50,
+            "Desc": "Vegetarian",
+            "Img": "brand/sample1//DietaryImage/vegetarian_32.png",
+            "Tooltip": "Suitable for Vegetarians",
+            "sname": ""
+        },
+        {
+            "Id": 23,
+            "Desc": "Celery",
+            "Img": "brand/sample1//DietaryImage/celery_32.png",
+            "Tooltip": "Contains Celery or Celeriac Products",
+            "sname": ""
+        },
+        {
+            "Id": 77,
+            "Desc": "Crustaceans",
+            "Img": "brand/sample1//DietaryImage/crustaceans_32.png",
+            "Tooltip": "Contains Crustaceans",
+            "sname": ""
+        },
+        {
+            "Id": 22,
+            "Desc": "Eggs",
+            "Img": "brand/sample1//DietaryImage/egg_32.png",
+            "Tooltip": "Contains Eggs or Egg Derivatives",
+            "sname": ""
+        },
+        {
+            "Id": 8,
+            "Desc": "Fish",
+            "Img": "brand/sample1//DietaryImage/fish_32.png",
+            "Tooltip": "Contains Fish or Fish Products",
+            "sname": ""
+        },
+        {
+            "Id": 21,
+            "Desc": "Lupin",
+            "Img": "brand/sample1//DietaryImage/lupin_32.png",
+            "Tooltip": "Contains Lupin",
+            "sname": ""
+        },
+        {
+            "Id": 11,
+            "Desc": "Milk",
+            "Img": "brand/sample1//DietaryImage/dairy_32.png",
+            "Tooltip": "Contains Milk or Milk Products",
+            "sname": ""
+        },
+        {
+            "Id": 10,
+            "Desc": "Molluscs",
+            "Img": "brand/sample1//DietaryImage/molluscs_32.png",
+            "Tooltip": "Contains Molluscs",
+            "sname": ""
+        },
+        {
+            "Id": 24,
+            "Desc": "Mustard",
+            "Img": "brand/sample1//DietaryImage/mustard_32.png",
+            "Tooltip": "Contains Mustard",
+            "sname": ""
+        },
+        {
+            "Id": 20,
+            "Desc": "Sesame Seeds",
+            "Img": "brand/sample1//DietaryImage/sesame_32.png",
+            "Tooltip": "Contains Sesame Seed",
+            "sname": ""
+        },
+        {
+            "Id": 31,
+            "Desc": "Soya",
+            "Img": "brand/sample1//DietaryImage/soya_32.png",
+            "Tooltip": "Contains Soya",
+            "sname": ""
+        },
+        {
+            "Id": 76,
+            "Desc": "Sulphur Dioxide/Sulphites",
+            "Img": "brand/sample1//DietaryImage/sulphur_32.png",
+            "Tooltip": "Contains Sulphur Dioxide/Sulphites",
+            "sname": ""
+        },
+        {
+            "Id": 29,
+            "Desc": "Nuts",
+            "Img": "brand/sample1//DietaryImage/nuts_32.png",
+            "Tooltip": "Contains Nuts or Nut Trace",
+            "sname": ""
+        },
+        {
+            "Id": 68,
+            "Desc": "Peanuts",
+            "Img": "brand/sample1//DietaryImage/peanuts_32.png",
+            "Tooltip": "Contains Peanuts",
+            "sname": ""
+        },
+        {
+            "Id": 81,
+            "Desc": "Tree Nuts",
+            "Img": "brand/sample1//DietaryImage/treenuts_32.png",
+            "Tooltip": "Contains Tree Nuts",
+            "sname": ""
+        },
+        {
+            "Id": 57,
+            "Desc": "Almond Nuts",
+            "Img": "brand/sample1//DietaryImage/almonds_32.png",
+            "Tooltip": "Contains Almonds",
+            "sname": ""
+        },
+        {
+            "Id": 58,
+            "Desc": "Brazil Nuts",
+            "Img": "brand/sample1//DietaryImage/brazilnuts_32.png",
+            "Tooltip": "Contains Brazil Nuts",
+            "sname": ""
+        },
+        {
+            "Id": 59,
+            "Desc": "Cashew Nuts",
+            "Img": "brand/sample1//DietaryImage/cashewnuts_32.png",
+            "Tooltip": "Contains Cashew Nuts",
+            "sname": ""
+        },
+        {
+            "Id": 61,
+            "Desc": "Hazelnuts",
+            "Img": "brand/sample1//DietaryImage/hazelnuts_32.png",
+            "Tooltip": "Contains Hazelnuts",
+            "sname": ""
+        },
+        {
+            "Id": 62,
+            "Desc": "Macadamia Nuts",
+            "Img": "brand/sample1//DietaryImage/macadamia_32.png",
+            "Tooltip": "Contains Macadamia Nuts",
+            "sname": ""
+        },
+        {
+            "Id": 64,
+            "Desc": "Pecan Nuts",
+            "Img": "brand/sample1//DietaryImage/pecannuts_32.png",
+            "Tooltip": "Contains Pecan Nuts",
+            "sname": ""
+        },
+        {
+            "Id": 66,
+            "Desc": "Pistachios",
+            "Img": "brand/sample1//DietaryImage/pistachios_32.png",
+            "Tooltip": "Contains Pistachios",
+            "sname": ""
+        },
+        {
+            "Id": 67,
+            "Desc": "Walnuts",
+            "Img": "brand/sample1//DietaryImage/walnuts_32.png",
+            "Tooltip": "Contains Walnuts",
+            "sname": ""
+        },
+        {
+            "Id": 12,
+            "Desc": "Cereals with Gluten",
+            "Img": "brand/sample1//DietaryImage/gluten_32.png",
+            "Tooltip": "Contains Cereals (Gluten)",
+            "sname": ""
+        },
+        {
+            "Id": 80,
+            "Desc": "Barley",
+            "Img": "brand/sample1//DietaryImage/barley_32.png",
+            "Tooltip": "Contains Barley",
+            "sname": ""
+        },
+        {
+            "Id": 82,
+            "Desc": "Oats",
+            "Img": "brand/sample1//DietaryImage/oats_32.png",
+            "Tooltip": "Contains Oats",
+            "sname": ""
+        },
+        {
+            "Id": 79,
+            "Desc": "Rye",
+            "Img": "brand/sample1//DietaryImage/ryw_32.png",
+            "Tooltip": "Contains Rye",
+            "sname": ""
+        },
+        {
+            "Id": 78,
+            "Desc": "Wheat",
+            "Img": "brand/sample1//DietaryImage/wheat_32.png",
+            "Tooltip": "Contains Wheat",
+            "sname": ""
+        }
+    ],
+    "Menus": [
+        {
+            "Ident": "ce78695e-dfd6-4ff5-9e78-119596d152cd",
+            "Name": "test_Sample 2 big menu",
+            "Desc": "",
+            "SHead1": "",
+            "SHead2": "",
+            "ICode": "36BB0C16A",
+            "IsDef": true,
+            "IsMl": false,
+            "AdvicePath": "TestUnit-testSample2bigmenu_2019-11-01.pdf",
+            "HasWarning": false,
+            "Price": "",
+            "Sections": [
+                {
+                    "Name": "First course",
+                    "Desc": "",
+                    "SHead1": "",
+                    "SHead2": "",
+                    "SType": 1,
+                    "Order": 1,
+                    "Price": "",
+                    "Sections": [],
+                    "Recipes": [
+                        {
+                            "Ident": "bbfc9af4-9c7c-4555-9807-8563ee21aab7",
+                            "Name": "All may recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "0.02",
+                                    "Size": "90.00",
+                                    "Uom1": "g"
+                                }
+                            ],
+                            "Price": "0.02",
+                            "ICode": "5257",
+                            "ECode": "",
+                            "RCode": "5257",
+                            "PSizeQ": "90.00",
+                            "PSizeU": "g",
+                            "Order": 1,
+                            "Servings": "1",
+                            "CookTime": "",
+                            "Method": [],
+                            "Ccp": [],
+                            "Preparation": [],
+                            "Service": [
+                                "Ingredient Description",
+                                "Presentation Notes",
+                                "Quality Standards",
+                                "Service Vehicle"
+                            ],
+                            "IList": "_test_All no ingredient",
+                            "ABV (%)": "",
+                            "Ingredients": [
+                                {
+                                    "Id": 50365,
+                                    "Name": "_test_All no ingredient",
+                                    "RICost": "0.00",
+                                    "ICode": "",
+                                    "ECode": "",
+                                    "RCode": "",
+                                    "RUrl": "",
+                                    "ChDef": false,
+                                    "Qty": "100",
+                                    "UoM": "g",
+                                    "PType": 1,
+                                    "Intols": [],
+                                    "Nutrs": [
+                                        {
+                                            "Id": 2,
+                                            "Desc": "Energy (kCal)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 3,
+                                            "Desc": "Protein (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 4,
+                                            "Desc": "Carb (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 5,
+                                            "Desc": "of which Sugars (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 8,
+                                            "Desc": "Fat (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 9,
+                                            "Desc": "Sat Fat (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 115,
+                                            "Desc": "Salt (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Intols": [
+                                {
+                                    "Id": 23,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 77,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 22,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 21,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 11,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 10,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 24,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 20,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 31,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 76,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 68,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 81,
+                                    "Val": "maybe",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 57,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 58,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 59,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 61,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 62,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 64,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 66,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 67,
+                                            "Val": "maybe"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 12,
+                                    "Val": "maybe",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 80,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 82,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 79,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 78,
+                                            "Val": "maybe"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "900",
+                                    "Per100g": "1,000",
+                                    "GdaPerc": "45.01",
+                                    "PostFix": "cal"
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "710.2",
+                                    "Per100g": "789.1",
+                                    "GdaPerc": "1,420.42",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "511.1",
+                                    "Per100g": "567.9",
+                                    "GdaPerc": "196.58",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "411.1",
+                                    "Per100g": "456.8",
+                                    "GdaPerc": "456.79",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "311.1",
+                                    "Per100g": "345.7",
+                                    "GdaPerc": "444.44",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "211.1",
+                                    "Per100g": "234.6",
+                                    "GdaPerc": "1,055.55",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "4.3",
+                                    "Per100g": "4.7",
+                                    "GdaPerc": "70.88",
+                                    "PostFix": "g"
+                                }
+                            ],
+                            "Picts": [
+                                {
+                                    "IsDef": true,
+                                    "Img": "tenkites/imported/Asset_bbfc9af4-9c7c-4555-9807-8563ee21aab7_1.jpg"
+                                },
+                                {
+                                    "IsDef": false,
+                                    "Img": "tenkites/imported/Asset_bbfc9af4-9c7c-4555-9807-8563ee21aab7_2.jpg"
+                                }
+                            ],
+                            "Vids": []
+                        },
+                        {
+                            "Ident": "3980f2f0-0c7b-47d3-b806-f27e261f9d83",
+                            "Name": "All no recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "1.23",
+                                    "Size": "100.00",
+                                    "Uom1": "g"
+                                }
+                            ],
+                            "Price": "1.23",
+                            "ICode": "5258",
+                            "ECode": "",
+                            "RCode": "5258",
+                            "PSizeQ": "100.00",
+                            "PSizeU": "g",
+                            "Order": 2,
+                            "Servings": "1",
+                            "CookTime": "",
+                            "Method": [],
+                            "Ccp": [],
+                            "Preparation": [],
+                            "Service": [],
+                            "IList": "_test_All no ingredient",
+                            "ABV (%)": "",
+                            "Ingredients": [
+                                {
+                                    "Id": 50365,
+                                    "Name": "_test_All no ingredient",
+                                    "RICost": "0.00",
+                                    "ICode": "",
+                                    "ECode": "",
+                                    "RCode": "",
+                                    "RUrl": "",
+                                    "ChDef": false,
+                                    "Qty": "100",
+                                    "UoM": "g",
+                                    "PType": 1,
+                                    "Intols": [],
+                                    "Nutrs": [
+                                        {
+                                            "Id": 2,
+                                            "Desc": "Energy (kCal)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 3,
+                                            "Desc": "Protein (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 4,
+                                            "Desc": "Carb (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 5,
+                                            "Desc": "of which Sugars (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 8,
+                                            "Desc": "Fat (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 9,
+                                            "Desc": "Sat Fat (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 115,
+                                            "Desc": "Salt (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Intols": [],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                }
+                            ],
+                            "Picts": [
+                                {
+                                    "IsDef": false,
+                                    "Img": "tenkites/imported/Asset_3980f2f0-0c7b-47d3-b806-f27e261f9d83_1.jpg"
+                                },
+                                {
+                                    "IsDef": true,
+                                    "Img": "tenkites/imported/Asset_3980f2f0-0c7b-47d3-b806-f27e261f9d83_2.jpg"
+                                }
+                            ],
+                            "Vids": []
+                        },
+                        {
+                            "Ident": "023cdd7b-b23e-4fac-a9d8-49804ed6d38c",
+                            "Name": "All unknown recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "2.04",
+                                    "Size": "100.00",
+                                    "Uom1": "g"
+                                }
+                            ],
+                            "Price": "2.04",
+                            "ICode": "5259",
+                            "ECode": "",
+                            "RCode": "5259",
+                            "PSizeQ": "100.00",
+                            "PSizeU": "g",
+                            "Order": 3,
+                            "Servings": "1",
+                            "CookTime": "",
+                            "Method": [],
+                            "Ccp": [],
+                            "Preparation": [],
+                            "Service": [],
+                            "ABV (%)": "",
+                            "Ingredients": [],
+                            "Intols": [
+                                {
+                                    "Id": 23,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 77,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 22,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 21,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 11,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 10,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 24,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 20,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 31,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 76,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 68,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 81,
+                                    "Val": "unknown",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 57,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 58,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 59,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 61,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 62,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 64,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 66,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 67,
+                                            "Val": "unknown"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 12,
+                                    "Val": "unknown",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 80,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 82,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 79,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 78,
+                                            "Val": "unknown"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "0",
+                                    "Per100g": "0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "cal"
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                }
+                            ],
+                            "Picts": [
+                                {
+                                    "IsDef": true,
+                                    "Img": "tenkites/imported/Asset_023cdd7b-b23e-4fac-a9d8-49804ed6d38c_1.jpg"
+                                }
+                            ],
+                            "Vids": []
+                        },
+                        {
+                            "Ident": "69ea3cc7-0551-4d08-a2da-756d029fa7de",
+                            "Name": "All yes recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "3.50",
+                                    "Size": "100.00",
+                                    "Uom1": "g"
+                                }
+                            ],
+                            "Price": "3.50",
+                            "ICode": "5256",
+                            "ECode": "",
+                            "RCode": "5256",
+                            "PSizeQ": "100.00",
+                            "PSizeU": "g",
+                            "Order": 4,
+                            "Servings": "1",
+                            "CookTime": "",
+                            "Method": [],
+                            "Ccp": [],
+                            "Preparation": [],
+                            "Service": [],
+                            "ABV (%)": "",
+                            "Ingredients": [],
+                            "Intols": [
+                                {
+                                    "Id": 52,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 50,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 23,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 77,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 22,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 21,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 11,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 10,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 24,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 20,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 31,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 76,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 68,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 81,
+                                    "Val": "yes",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 57,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 58,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 59,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 61,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 62,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 64,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 66,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 67,
+                                            "Val": "yes"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 12,
+                                    "Val": "yes",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 80,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 82,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 79,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 78,
+                                            "Val": "yes"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "1,000",
+                                    "Per100g": "1,000",
+                                    "GdaPerc": "50.00",
+                                    "PostFix": "cal"
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "600.6",
+                                    "Per100g": "600.6",
+                                    "GdaPerc": "1,201.20",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "400.3",
+                                    "Per100g": "400.3",
+                                    "GdaPerc": "153.96",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "300.5",
+                                    "Per100g": "300.5",
+                                    "GdaPerc": "333.89",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "200.1",
+                                    "Per100g": "200.1",
+                                    "GdaPerc": "285.86",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "100.2",
+                                    "Per100g": "100.2",
+                                    "GdaPerc": "501.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "2.3",
+                                    "Per100g": "2.3",
+                                    "GdaPerc": "37.51",
+                                    "PostFix": "g"
+                                }
+                            ],
+                            "Picts": [
+                                {
+                                    "IsDef": true,
+                                    "Img": "tenkites/imported/Asset_69ea3cc7-0551-4d08-a2da-756d029fa7de_1.jpg"
+                                }
+                            ],
+                            "Vids": []
+                        }
+                    ],
+                    "Picts": []
+                },
+                {
+                    "Name": "Second course",
+                    "Desc": "",
+                    "SHead1": "",
+                    "SHead2": "",
+                    "SType": 1,
+                    "Order": 2,
+                    "Price": "",
+                    "Sections": [],
+                    "Recipes": [
+                        {
+                            "Ident": "76950219-649f-4793-8f78-59ac03e55153",
+                            "Name": "No parent all unknown subs recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "",
+                                    "Size": "",
+                                    "Uom1": ""
+                                }
+                            ],
+                            "Price": "",
+                            "ICode": "5260",
+                            "ECode": "",
+                            "RCode": "5260",
+                            "PSizeQ": "",
+                            "PSizeU": "",
+                            "Order": 1,
+                            "Servings": "1",
+                            "CookTime": "",
+                            "Method": [],
+                            "Ccp": [],
+                            "Preparation": [],
+                            "Service": [],
+                            "ABV (%)": "",
+                            "Ingredients": [],
+                            "Intols": [
+                                {
+                                    "Id": 68,
+                                    "Val": "unknown"
+                                }
+                            ],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                }
+                            ],
+                            "Picts": [],
+                            "Vids": []
+                        },
+                        {
+                            "Ident": "fcb15a90-57fa-4767-81b7-8c527d6cef97",
+                            "Name": "No parent one unknown sub recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "12.75",
+                                    "Size": "",
+                                    "Uom1": ""
+                                }
+                            ],
+                            "Price": "12.75",
+                            "ICode": "5267",
+                            "ECode": "",
+                            "RCode": "5267",
+                            "PSizeQ": "",
+                            "PSizeU": "",
+                            "Order": 2,
+                            "Servings": "1",
+                            "CookTime": "",
+                            "Method": [],
+                            "Ccp": [],
+                            "Preparation": [],
+                            "Service": [],
+                            "ABV (%)": "",
+                            "Ingredients": [],
+                            "Intols": [],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                }
+                            ],
+                            "Picts": [],
+                            "Vids": []
+                        },
+                        {
+                            "Ident": "29ee7ef0-989d-41b4-aa1b-d7db98eb6c4b",
+                            "Name": "Mollus Milk Mustard recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "100.00",
+                                    "Size": "100.00",
+                                    "Uom1": "g"
+                                }
+                            ],
+                            "Price": "100.00",
+                            "ICode": "5328",
+                            "ECode": "",
+                            "RCode": "5328",
+                            "PSizeQ": "100.00",
+                            "PSizeU": "g",
+                            "Order": 3,
+                            "Servings": "1",
+                            "CookTime": "68",
+                            "Method": [
+                                "Method 1#br#'F&B'",
+                                "Method 2",
+                                ""
+                            ],
+                            "Ccp": [
+                                "CCP 1",
+                                "",
+                                "CCP 2",
+                                "CCP 3"
+                            ],
+                            "Preparation": [
+                                "Mis en place 1",
+                                "Mis en place 2"
+                            ],
+                            "Service": [],
+                            "IList": "_test_ingredient b, Short ingredient a (MILK, MOLLUSCS)",
+                            "ABV (%)": "8.3",
+                            "Ingredients": [
+                                {
+                                    "Id": 50437,
+                                    "Name": "_test_ingredient a",
+                                    "RICost": "0.00",
+                                    "ICode": "123",
+                                    "ECode": "456",
+                                    "RCode": "",
+                                    "RUrl": "",
+                                    "ChDef": false,
+                                    "Qty": "5",
+                                    "UoM": "oz",
+                                    "PType": 1,
+                                    "Intols": [
+                                        {
+                                            "Id": 11,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 10,
+                                            "Val": "unknown"
+                                        }
+                                    ],
+                                    "Nutrs": [
+                                        {
+                                            "Id": 2,
+                                            "Desc": "Energy (kCal)",
+                                            "Per100g": "1,000",
+                                            "PostFix": "cal"
+                                        },
+                                        {
+                                            "Id": 3,
+                                            "Desc": "Protein (g)",
+                                            "Per100g": "0.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 4,
+                                            "Desc": "Carb (g)",
+                                            "Per100g": "35.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 5,
+                                            "Desc": "of which Sugars (g)",
+                                            "Per100g": "12.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 8,
+                                            "Desc": "Fat (g)",
+                                            "Per100g": "50.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 9,
+                                            "Desc": "Sat Fat (g)",
+                                            "Per100g": "20.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 115,
+                                            "Desc": "Salt (g)",
+                                            "Per100g": "0.0",
+                                            "PostFix": "g"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 50438,
+                                    "Name": "_test_ingredient b",
+                                    "RICost": "0.00",
+                                    "ICode": "",
+                                    "ECode": "",
+                                    "RCode": "",
+                                    "RUrl": "",
+                                    "ChDef": false,
+                                    "Qty": "200",
+                                    "UoM": "g",
+                                    "PType": 1,
+                                    "Intols": [
+                                        {
+                                            "Id": 24,
+                                            "Val": "maybe"
+                                        }
+                                    ],
+                                    "Nutrs": [
+                                        {
+                                            "Id": 2,
+                                            "Desc": "Energy (kCal)",
+                                            "Per100g": "800",
+                                            "PostFix": "cal"
+                                        },
+                                        {
+                                            "Id": 3,
+                                            "Desc": "Protein (g)",
+                                            "Per100g": "100.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 4,
+                                            "Desc": "Carb (g)",
+                                            "Per100g": "0.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 5,
+                                            "Desc": "of which Sugars (g)",
+                                            "Per100g": "0.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 8,
+                                            "Desc": "Fat (g)",
+                                            "Per100g": "25.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 9,
+                                            "Desc": "Sat Fat (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 115,
+                                            "Desc": "Salt (g)",
+                                            "Per100g": "0.0",
+                                            "PostFix": "g"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Intols": [
+                                {
+                                    "Id": 11,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 10,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 24,
+                                    "Val": "maybe"
+                                }
+                            ],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "883",
+                                    "Per100g": "883",
+                                    "GdaPerc": "44.15",
+                                    "PostFix": "cal"
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "58.5",
+                                    "Per100g": "58.5",
+                                    "GdaPerc": "117.05",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "14.5",
+                                    "Per100g": "14.5",
+                                    "GdaPerc": "5.58",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "5.0",
+                                    "Per100g": "5.0",
+                                    "GdaPerc": "5.53",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "35.4",
+                                    "Per100g": "35.4",
+                                    "GdaPerc": "50.53",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.17",
+                                    "PostFix": "g"
+                                }
+                            ],
+                            "Picts": [
+                                {
+                                    "IsDef": false,
+                                    "Img": "tenkites/imported/Asset_29ee7ef0-989d-41b4-aa1b-d7db98eb6c4b_1.jpg"
+                                },
+                                {
+                                    "IsDef": true,
+                                    "Img": "tenkites/imported/Asset_29ee7ef0-989d-41b4-aa1b-d7db98eb6c4b_2.jpg"
+                                }
+                            ],
+                            "Vids": []
+                        },
+                        {
+                            "Ident": "d168c730-c414-4d42-8a87-8714523ebd0b",
+                            "Name": "Veget Organic Nuts Peanut Fish Soy recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "",
+                                    "Size": "",
+                                    "Uom1": ""
+                                }
+                            ],
+                            "Price": "",
+                            "ICode": "5268",
+                            "ECode": "",
+                            "RCode": "5268",
+                            "PSizeQ": "",
+                            "PSizeU": "",
+                            "Order": 4,
+                            "Servings": "1",
+                            "CookTime": "10",
+                            "Method": [],
+                            "Ccp": [],
+                            "Preparation": [],
+                            "Service": [],
+                            "IList": "Short ingredient c (FISH), _test_Menu description sub recipe [_test_ingredient d2 (NUTS, TREE NUTS, CASHEW NUTS, HAZELNUTS), Short ingredient d1 (SOYA)]",
+                            "ABV (%)": "64.8",
+                            "Ingredients": [
+                                {
+                                    "Id": 50377,
+                                    "Name": "_test_ingredient c",
+                                    "RICost": "10.00",
+                                    "ICode": "",
+                                    "ECode": "",
+                                    "RCode": "",
+                                    "RUrl": "",
+                                    "ChDef": false,
+                                    "Qty": "300",
+                                    "UoM": "g",
+                                    "PType": 1,
+                                    "Intols": [
+                                        {
+                                            "Id": 50,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 8,
+                                            "Val": "yes"
+                                        }
+                                    ],
+                                    "Nutrs": [
+                                        {
+                                            "Id": 2,
+                                            "Desc": "Energy (kCal)",
+                                            "Per100g": "1,200",
+                                            "PostFix": "cal"
+                                        },
+                                        {
+                                            "Id": 3,
+                                            "Desc": "Protein (g)",
+                                            "Per100g": "100.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 4,
+                                            "Desc": "Carb (g)",
+                                            "Per100g": "100.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 5,
+                                            "Desc": "of which Sugars (g)",
+                                            "Per100g": "30.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 8,
+                                            "Desc": "Fat (g)",
+                                            "Per100g": "50.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 9,
+                                            "Desc": "Sat Fat (g)",
+                                            "Per100g": "20.0",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 115,
+                                            "Desc": "Salt (g)",
+                                            "Per100g": "1.3",
+                                            "PostFix": "g"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 50592,
+                                    "Name": "_test_Menu description sub recipe",
+                                    "RICost": "0.00",
+                                    "ICode": "",
+                                    "ECode": "",
+                                    "RCode": "9530",
+                                    "RUrl": "",
+                                    "ChDef": false,
+                                    "Qty": "200",
+                                    "UoM": "g",
+                                    "PType": 2,
+                                    "Intols": [
+                                        {
+                                            "Id": 50,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 31,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 68,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 81,
+                                            "Val": "yes",
+                                            "ChIntols": [
+                                                {
+                                                    "Id": 58,
+                                                    "Val": "maybe"
+                                                },
+                                                {
+                                                    "Id": 59,
+                                                    "Val": "yes"
+                                                },
+                                                {
+                                                    "Id": 61,
+                                                    "Val": "unknown"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "Nutrs": [
+                                        {
+                                            "Id": 2,
+                                            "Desc": "Energy (kCal)",
+                                            "PerServ": "1,364",
+                                            "Per100g": "682",
+                                            "GdaPerc": "68.19",
+                                            "PostFix": "cal"
+                                        },
+                                        {
+                                            "Id": 3,
+                                            "Desc": "Protein (g)",
+                                            "PerServ": "36.1",
+                                            "Per100g": "18.1",
+                                            "GdaPerc": "72.23",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 4,
+                                            "Desc": "Carb (g)",
+                                            "PerServ": "40.3",
+                                            "Per100g": "20.1",
+                                            "GdaPerc": "15.48",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 5,
+                                            "Desc": "of which Sugars (g)",
+                                            "PerServ": "15.9",
+                                            "Per100g": "8.0",
+                                            "GdaPerc": "17.69",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 8,
+                                            "Desc": "Fat (g)",
+                                            "PerServ": "32.1",
+                                            "Per100g": "16.1",
+                                            "GdaPerc": "45.91",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 9,
+                                            "Desc": "Sat Fat (g)",
+                                            "PerServ": "4.8",
+                                            "Per100g": "2.4",
+                                            "GdaPerc": "24.08",
+                                            "PostFix": "g"
+                                        },
+                                        {
+                                            "Id": 115,
+                                            "Desc": "Salt (g)",
+                                            "PerServ": "3.0",
+                                            "Per100g": "1.5",
+                                            "GdaPerc": "50.16",
+                                            "PostFix": "g"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Intols": [
+                                {
+                                    "Id": 50,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 31,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 68,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 81,
+                                    "Val": "yes",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 58,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 59,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 61,
+                                            "Val": "unknown"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "9,928",
+                                    "Per100g": "993",
+                                    "GdaPerc": "496.38",
+                                    "PostFix": "cal"
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "672.2",
+                                    "Per100g": "67.2",
+                                    "GdaPerc": "1,344.46",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "680.5",
+                                    "Per100g": "68.1",
+                                    "GdaPerc": "261.74",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "211.8",
+                                    "Per100g": "21.2",
+                                    "GdaPerc": "235.39",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "364.3",
+                                    "Per100g": "36.4",
+                                    "GdaPerc": "520.39",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "129.6",
+                                    "Per100g": "13.0",
+                                    "GdaPerc": "648.15",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "13.5",
+                                    "Per100g": "1.4",
+                                    "GdaPerc": "225.32",
+                                    "PostFix": "g"
+                                }
+                            ],
+                            "Picts": [
+                                {
+                                    "IsDef": true,
+                                    "Img": "tenkites/imported/Asset_d168c730-c414-4d42-8a87-8714523ebd0b_1.jpg"
+                                }
+                            ],
+                            "Vids": []
+                        }
+                    ],
+                    "Picts": []
+                }
+            ],
+            "Recipes": [],
+            "Picts": [],
+            "Vids": [],
+            "Docs": []
+        },
+        {
+            "Ident": "ce539ac0-93e6-4fc2-b1a4-7806b5cec5ed",
+            "Name": "test_Sample 2 all menu",
+            "Desc": "",
+            "SHead1": "",
+            "SHead2": "",
+            "ICode": "36BB0C2F9",
+            "IsDef": false,
+            "IsMl": false,
+            "AdvicePath": "TestUnit-testSample2allmenu_2019-11-01.pdf",
+            "HasWarning": false,
+            "Price": "",
+            "Sections": [
+                {
+                    "Name": "All course",
+                    "Desc": "",
+                    "SHead1": "",
+                    "SHead2": "",
+                    "SType": 1,
+                    "Order": 1,
+                    "Price": "",
+                    "Sections": [],
+                    "Recipes": [
+                        {
+                            "Ident": "69ea3cc7-0551-4d08-a2da-756d029fa7de",
+                            "Name": "All yes recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "0.40",
+                                    "Size": "100.00",
+                                    "Uom1": "g"
+                                }
+                            ],
+                            "Price": "0.40",
+                            "ICode": "5256",
+                            "ECode": "",
+                            "RCode": "5256",
+                            "PSizeQ": "100.00",
+                            "PSizeU": "g",
+                            "Order": 1,
+                            "Servings": "1",
+                            "CookTime": "",
+                            "Method": [],
+                            "Ccp": [],
+                            "Preparation": [],
+                            "Service": [],
+                            "ABV (%)": "",
+                            "Ingredients": [],
+                            "Intols": [
+                                {
+                                    "Id": 52,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 50,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 23,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 77,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 22,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 21,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 11,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 10,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 24,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 20,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 31,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 76,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 68,
+                                    "Val": "yes"
+                                },
+                                {
+                                    "Id": 81,
+                                    "Val": "yes",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 57,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 58,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 59,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 61,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 62,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 64,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 66,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 67,
+                                            "Val": "yes"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 12,
+                                    "Val": "yes",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 80,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 82,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 79,
+                                            "Val": "yes"
+                                        },
+                                        {
+                                            "Id": 78,
+                                            "Val": "yes"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "1,000",
+                                    "Per100g": "1,000",
+                                    "GdaPerc": "50.00",
+                                    "PostFix": "cal"
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "600.6",
+                                    "Per100g": "600.6",
+                                    "GdaPerc": "1,201.20",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "400.3",
+                                    "Per100g": "400.3",
+                                    "GdaPerc": "153.96",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "300.5",
+                                    "Per100g": "300.5",
+                                    "GdaPerc": "333.89",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "200.1",
+                                    "Per100g": "200.1",
+                                    "GdaPerc": "285.86",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "100.2",
+                                    "Per100g": "100.2",
+                                    "GdaPerc": "501.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "2.3",
+                                    "Per100g": "2.3",
+                                    "GdaPerc": "37.51",
+                                    "PostFix": "g"
+                                }
+                            ],
+                            "Picts": [
+                                {
+                                    "IsDef": true,
+                                    "Img": "tenkites/imported/Asset_69ea3cc7-0551-4d08-a2da-756d029fa7de_1.jpg"
+                                }
+                            ],
+                            "Vids": []
+                        },
+                        {
+                            "Ident": "3980f2f0-0c7b-47d3-b806-f27e261f9d83",
+                            "Name": "All no recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "",
+                                    "Size": "100.00",
+                                    "Uom1": "g"
+                                }
+                            ],
+                            "Price": "",
+                            "ICode": "5258",
+                            "ECode": "",
+                            "RCode": "5258",
+                            "PSizeQ": "100.00",
+                            "PSizeU": "g",
+                            "Order": 2,
+                            "Servings": "1",
+                            "CookTime": "",
+                            "Method": [],
+                            "Ccp": [],
+                            "Preparation": [],
+                            "Service": [],
+                            "IList": "_test_All no ingredient",
+                            "ABV (%)": "",
+                            "Ingredients": [
+                                {
+                                    "Id": 50365,
+                                    "Name": "_test_All no ingredient",
+                                    "RICost": "0.00",
+                                    "ICode": "",
+                                    "ECode": "",
+                                    "RCode": "",
+                                    "RUrl": "",
+                                    "ChDef": false,
+                                    "Qty": "100",
+                                    "UoM": "g",
+                                    "PType": 1,
+                                    "Intols": [],
+                                    "Nutrs": [
+                                        {
+                                            "Id": 2,
+                                            "Desc": "Energy (kCal)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 3,
+                                            "Desc": "Protein (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 4,
+                                            "Desc": "Carb (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 5,
+                                            "Desc": "of which Sugars (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 8,
+                                            "Desc": "Fat (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 9,
+                                            "Desc": "Sat Fat (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 115,
+                                            "Desc": "Salt (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Intols": [],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "-",
+                                    "Per100g": "-",
+                                    "GdaPerc": "-",
+                                    "PostFix": ""
+                                }
+                            ],
+                            "Picts": [
+                                {
+                                    "IsDef": false,
+                                    "Img": "tenkites/imported/Asset_3980f2f0-0c7b-47d3-b806-f27e261f9d83_1.jpg"
+                                },
+                                {
+                                    "IsDef": true,
+                                    "Img": "tenkites/imported/Asset_3980f2f0-0c7b-47d3-b806-f27e261f9d83_2.jpg"
+                                }
+                            ],
+                            "Vids": []
+                        },
+                        {
+                            "Ident": "bbfc9af4-9c7c-4555-9807-8563ee21aab7",
+                            "Name": "All may recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "4.32",
+                                    "Size": "90.00",
+                                    "Uom1": "g"
+                                }
+                            ],
+                            "Price": "4.32",
+                            "ICode": "5257",
+                            "ECode": "",
+                            "RCode": "5257",
+                            "PSizeQ": "90.00",
+                            "PSizeU": "g",
+                            "Order": 3,
+                            "Servings": "1",
+                            "CookTime": "",
+                            "Method": [],
+                            "Ccp": [],
+                            "Preparation": [],
+                            "Service": [
+                                "Ingredient Description",
+                                "Presentation Notes",
+                                "Quality Standards",
+                                "Service Vehicle"
+                            ],
+                            "IList": "_test_All no ingredient",
+                            "ABV (%)": "",
+                            "Ingredients": [
+                                {
+                                    "Id": 50365,
+                                    "Name": "_test_All no ingredient",
+                                    "RICost": "0.00",
+                                    "ICode": "",
+                                    "ECode": "",
+                                    "RCode": "",
+                                    "RUrl": "",
+                                    "ChDef": false,
+                                    "Qty": "100",
+                                    "UoM": "g",
+                                    "PType": 1,
+                                    "Intols": [],
+                                    "Nutrs": [
+                                        {
+                                            "Id": 2,
+                                            "Desc": "Energy (kCal)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 3,
+                                            "Desc": "Protein (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 4,
+                                            "Desc": "Carb (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 5,
+                                            "Desc": "of which Sugars (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 8,
+                                            "Desc": "Fat (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 9,
+                                            "Desc": "Sat Fat (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        },
+                                        {
+                                            "Id": 115,
+                                            "Desc": "Salt (g)",
+                                            "Per100g": "-",
+                                            "PostFix": ""
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Intols": [
+                                {
+                                    "Id": 23,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 77,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 22,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 21,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 11,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 10,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 24,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 20,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 31,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 76,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 68,
+                                    "Val": "maybe"
+                                },
+                                {
+                                    "Id": 81,
+                                    "Val": "maybe",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 57,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 58,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 59,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 61,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 62,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 64,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 66,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 67,
+                                            "Val": "maybe"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 12,
+                                    "Val": "maybe",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 80,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 82,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 79,
+                                            "Val": "maybe"
+                                        },
+                                        {
+                                            "Id": 78,
+                                            "Val": "maybe"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "900",
+                                    "Per100g": "1,000",
+                                    "GdaPerc": "45.01",
+                                    "PostFix": "cal"
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "710.2",
+                                    "Per100g": "789.1",
+                                    "GdaPerc": "1,420.42",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "511.1",
+                                    "Per100g": "567.9",
+                                    "GdaPerc": "196.58",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "411.1",
+                                    "Per100g": "456.8",
+                                    "GdaPerc": "456.79",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "311.1",
+                                    "Per100g": "345.7",
+                                    "GdaPerc": "444.44",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "211.1",
+                                    "Per100g": "234.6",
+                                    "GdaPerc": "1,055.55",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "4.3",
+                                    "Per100g": "4.7",
+                                    "GdaPerc": "70.88",
+                                    "PostFix": "g"
+                                }
+                            ],
+                            "Picts": [
+                                {
+                                    "IsDef": true,
+                                    "Img": "tenkites/imported/Asset_bbfc9af4-9c7c-4555-9807-8563ee21aab7_1.jpg"
+                                },
+                                {
+                                    "IsDef": false,
+                                    "Img": "tenkites/imported/Asset_bbfc9af4-9c7c-4555-9807-8563ee21aab7_2.jpg"
+                                }
+                            ],
+                            "Vids": []
+                        },
+                        {
+                            "Ident": "023cdd7b-b23e-4fac-a9d8-49804ed6d38c",
+                            "Name": "All unknown recipe",
+                            "Desc": "",
+                            "ProDesc": "",
+                            "ProIDesc": "",
+                            "PosDesc": "",
+                            "RType": 1,
+                            "Sizes": [
+                                {
+                                    "Name": "Standard",
+                                    "Price": "11.22",
+                                    "Size": "100.00",
+                                    "Uom1": "g"
+                                }
+                            ],
+                            "Price": "11.22",
+                            "ICode": "5259",
+                            "ECode": "",
+                            "RCode": "5259",
+                            "PSizeQ": "100.00",
+                            "PSizeU": "g",
+                            "Order": 4,
+                            "Servings": "1",
+                            "CookTime": "",
+                            "Method": [],
+                            "Ccp": [],
+                            "Preparation": [],
+                            "Service": [],
+                            "ABV (%)": "",
+                            "Ingredients": [],
+                            "Intols": [
+                                {
+                                    "Id": 23,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 77,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 22,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 21,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 11,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 10,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 24,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 20,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 31,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 76,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 68,
+                                    "Val": "unknown"
+                                },
+                                {
+                                    "Id": 81,
+                                    "Val": "unknown",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 57,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 58,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 59,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 61,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 62,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 64,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 66,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 67,
+                                            "Val": "unknown"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 12,
+                                    "Val": "unknown",
+                                    "ChIntols": [
+                                        {
+                                            "Id": 80,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 82,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 79,
+                                            "Val": "unknown"
+                                        },
+                                        {
+                                            "Id": 78,
+                                            "Val": "unknown"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Nutrs": [
+                                {
+                                    "Id": 2,
+                                    "Desc": "Energy (kCal)",
+                                    "PerServ": "0",
+                                    "Per100g": "0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "cal"
+                                },
+                                {
+                                    "Id": 3,
+                                    "Desc": "Protein (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 4,
+                                    "Desc": "Carb (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 5,
+                                    "Desc": "of which Sugars (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 8,
+                                    "Desc": "Fat (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 9,
+                                    "Desc": "Sat Fat (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                },
+                                {
+                                    "Id": 115,
+                                    "Desc": "Salt (g)",
+                                    "PerServ": "0.0",
+                                    "Per100g": "0.0",
+                                    "GdaPerc": "0.00",
+                                    "PostFix": "g"
+                                }
+                            ],
+                            "Picts": [
+                                {
+                                    "IsDef": true,
+                                    "Img": "tenkites/imported/Asset_023cdd7b-b23e-4fac-a9d8-49804ed6d38c_1.jpg"
+                                }
+                            ],
+                            "Vids": []
+                        }
+                    ],
+                    "Picts": []
+                }
+            ],
+            "Recipes": [],
+            "Picts": [],
+            "Vids": [],
+            "Docs": []
+        }
+    ],
+    "Locations": []
+}

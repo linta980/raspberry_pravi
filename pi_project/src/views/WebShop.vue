@@ -3,10 +3,10 @@
     <Navbar />
 
     <!-- DIalog for adding new product -->
-    <div class="text-xs-center">
+    <v-layout justify-center>
       <v-dialog v-model="dialog" width="500">
         <template v-slot:activator="{ on }">
-          <v-btn class="success text-none mt-5" right v-on="on">
+          <v-btn class="success text-none mt-5" v-on="on">
             <v-icon class="mr-3">add_circle</v-icon>
             <span>Add new Proizvod</span>
           </v-btn>
@@ -49,71 +49,108 @@
           </v-card-actions>
         </v-card>
       </v-dialog>
-    </div>
+    </v-layout>
 
     <!--Dodavanje kolicine i velicine u firebase  -->
-    <v-layout column>
-      <form lazy-validation>
-        <v-container>
-          <v-layout row wrap>
-            <v-flex md6 xs12 offset-sm3>
-              <v-select
-                v-model="select_proizvodi"
-                :items="proizvodi"
-                label="Proizvodi"
-                required
-                @change="onChangeProizvodi($event)"
-              ></v-select>
-            </v-flex>
 
-            <v-flex md6 xs12 offset-sm3>
-              <v-select
-                v-model="select_mod"
-                :items="select_model"
-                label="Model"
-                required
-                @change="onChangeModel($event)"
-              ></v-select>
-            </v-flex>
+    <!-- <v-layout  justify-center> -->
+    <v-row class="px-5 " justify="space-around">
+      <v-col class="d-flex" cols="12" sm="4"   >
+        <v-select
+          v-model="select_proizvodi"
+          :items="proizvodi"
+          label="Proizvodi"
+          required
+          @change="onChangeProizvodi($event)"
+        ></v-select>
+      </v-col>
+    </v-row>
 
-            <v-flex md6 xs12 offset-sm3>
-              <v-text-field v-model="kolicina" label="Kolicina" required></v-text-field>
-            </v-flex>
+    <v-row  class="px-5" justify="space-around">
+      <v-col class="d-flex" cols="12" sm="4" >
+      <v-select
+        v-model="select_mod"
+        :items="select_model"
+        label="Model"
+        required
+        @change="onChangeModel($event)"
+      ></v-select>
+      </v-col>
+    </v-row>
 
-            <v-flex md6 xs12 offset-sm3 v-if="prikazi_za_sve_ostalo">
-              <v-select
-                v-model="select_velicina"
-                :items="velicine_majice"
-                label="Velicina"
-                required
-              ></v-select>
-            </v-flex>
-            <v-flex md6 xs12 offset-sm3 v-if="prikazi_ako_je_patika">
-              <v-select
-                v-model="select_velicina"
-                :items="velicine_patike"
-                label="Velicina"
-                required
-              ></v-select>
-            </v-flex>
+    <v-row  class="px-5" justify="space-around">
+      <v-col class="d-flex" cols="12" sm="4">
+      <v-text-field v-model="kolicina" label="Kolicina" required></v-text-field>
+      </v-col>
+    </v-row>
 
-            <v-flex md6 xs12 offset-sm3>
-              <v-select
-                v-model="select_proizvodjac"
-                :items="proizvodjaci"
-                label="Proizvodjaci"
-                required
-              ></v-select>
-            </v-flex>
-          </v-layout>
-        </v-container>
+    <v-row  class="px-5" v-if="prikazi_za_sve_ostalo" justify="space-around">
+      <v-col class="d-flex" cols="12" sm="4" >
+      <v-select v-model="select_velicina" :items="velicine_majice" label="Velicina" required></v-select>
+      </v-col>
+    </v-row>
+    <v-row  class="px-5" v-if="prikazi_ako_je_patika" justify="space-around">
+      <v-col class="d-flex" cols="12" sm="4" align="center">
+      <v-select v-model="select_velicina" :items="velicine_patike" label="Velicina" required></v-select>
+      </v-col>
+    </v-row>
 
-        <!-- <v-checkbox v-model="checkbox" value="1" label="Option" type="checkbox" required></v-checkbox> -->
+    <v-row  class="px-5" justify="space-around">
+      <v-col class="d-flex" cols="12" sm="4">
+      <v-select v-model="select_proizvodjac" :items="proizvodjaci" label="Proizvodjaci" required></v-select>
+      </v-col>
+    </v-row>
 
-        <v-btn @click="submit">submit</v-btn>
-        <v-btn @click="clear">clear</v-btn>
-      </form>
+    <!-- </v-layout> -->
+
+    <!-- <v-layout  justify-center>
+      <v-flex md5 xs12 class="px-5" >
+        <v-select
+          v-model="select_proizvodi"
+          :items="proizvodi"
+          label="Proizvodi"
+          required
+          @change="onChangeProizvodi($event)"
+        ></v-select>
+      </v-flex>
+
+      <v-flex md5 xs12 class="px-5">
+        <v-select
+          v-model="select_mod"
+          :items="select_model"
+          label="Model"
+          required
+          @change="onChangeModel($event)"
+        ></v-select>
+      </v-flex>
+
+      <v-flex md5 xs12 class="px-5">
+        <v-text-field v-model="kolicina" label="Kolicina" required></v-text-field>
+      </v-flex>
+
+      <v-flex md5 xs12 class="px-5" v-if="prikazi_za_sve_ostalo">
+        <v-select v-model="select_velicina" :items="velicine_majice" label="Velicina" required></v-select>
+      </v-flex>
+      <v-flex md5 xs12 class="px-5" v-if="prikazi_ako_je_patika">
+        <v-select v-model="select_velicina" :items="velicine_patike" label="Velicina" required></v-select>
+      </v-flex>
+
+      <v-flex md5 xs12 class="px-5">
+        <v-select v-model="select_proizvodjac" :items="proizvodjaci" label="Proizvodjaci" required></v-select>
+      </v-flex>
+    </v-layout>-->
+
+    <v-layout justify-center>
+      <v-btn @click="submit" class="success">submit</v-btn>
+      <v-btn @click="clear" class="ml-2">clear</v-btn>
     </v-layout>
+
+    <!-- </v-container> -->
+
+    <!-- <v-checkbox v-model="checkbox" value="1" label="Option" type="checkbox" required></v-checkbox> -->
+
+    <!-- </form> -->
+    <!-- </v-layout> -->
 
     <!-- </v-content> -->
   </v-content>
@@ -186,14 +223,16 @@ export default {
                   db.collection(this.select_proizvodi)
                     .doc(element.id)
                     .update(
-                      `model_velicina.${this.select_velicina}`,this.kolicina  /// AAAAAAA JEBEM TI MATER , ne treba da saljem kao objekat vec samo ovako , znaci nema {}
+                      `model_velicina.${this.select_velicina}`,
+                      this.kolicina /// AAAAAAA JEBEM TI MATER , ne treba da saljem kao objekat vec samo ovako , znaci nema {}
                     );
                 }
                 if (this.velicine_patike != "") {
                   db.collection(this.select_proizvodi)
                     .doc(element.id)
                     .update(
-                      `model_velicina.${this.select_velicina}`,this.kolicina
+                      `model_velicina.${this.select_velicina}`,
+                      this.kolicina
                     );
                 }
               });

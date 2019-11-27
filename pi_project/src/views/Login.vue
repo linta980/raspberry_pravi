@@ -1,7 +1,18 @@
 <template>
   <v-content>
-    <v-toolbar flat class="info">
-      <v-layout row wrap>
+    <!-- <v-toolbar flat class="info"> -->
+
+    <v-row flat class="info " >
+      <v-spacer></v-spacer>
+      <v-col cols="6" xl="1" lg="1" md="1" sm="1" xs="1"  >
+        <v-btn text class="blue-grey lighten-4 mx-5" v-on:click="login_enter">Login</v-btn>
+      </v-col>
+      <v-col cols="6" xl="1" lg="1" md="1" sm="1" xs="1" >
+        <v-btn  text class="blue-grey lighten-4 mx-5" v-on:click="register">Register</v-btn>
+      </v-col>
+    </v-row>
+
+    <!-- <v-layout row wrap>
         <v-spacer></v-spacer>
         <v-flex xs12 md1 class>
           <v-btn flat v-on:click="login_enter">Login</v-btn>
@@ -9,8 +20,8 @@
         <v-flex xs12 md1 class>
           <v-btn flat v-on:click="register">Register</v-btn>
         </v-flex>
-      </v-layout>
-    </v-toolbar>
+    </v-layout>-->
+    <!-- </v-toolbar> -->
 
     <v-container fluid fill-height>
       <v-layout align-top justify-center>
@@ -50,7 +61,6 @@
 </template>
 
 <script>
-
 import firebase from "firebase";
 export default {
   data: () => ({
@@ -62,9 +72,7 @@ export default {
   props: {
     source: String
   },
-  mounted() {
-   
-  },
+  mounted() {},
   methods: {
     login() {
       if (this.email != "" && this.password != "") {
@@ -72,9 +80,8 @@ export default {
           .auth()
           .signInWithEmailAndPassword(this.email, this.password)
           .then(res => {
-            
             this.$router.push("/navbar");
-            this.seen = false;  
+            this.seen = false;
           })
           .catch(error => console.log(error.message));
       } else {

@@ -1,0 +1,552 @@
+{
+    "Ingredients": [
+        {
+            "Id": 50365,
+            "Name": "_test_All no ingredient",
+            "RICost": "0.00",
+            "ICode": "",
+            "ECode": "",
+            "RCode": "",
+            "RUrl": "",
+            "ChDef": false,
+            "Qty": "100",
+            "UoM": "g",
+            "PType": 1,
+            "Intols": [],
+            "Nutrs": [
+                {
+                    "Id": 2,
+                    "Desc": "Energy (kCal)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 3,
+                    "Desc": "Protein (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 4,
+                    "Desc": "Carb (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 5,
+                    "Desc": "of which Sugars (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 8,
+                    "Desc": "Fat (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 9,
+                    "Desc": "Sat Fat (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 115,
+                    "Desc": "Salt (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                }
+            ]
+        }
+    ],
+    "Ingredients2": [
+        {
+            "Id": 50365,
+            "Name": "_test_All no ingredient",
+            "RICost": "0.00",
+            "ICode": "",
+            "ECode": "",
+            "RCode": "",
+            "RUrl": "",
+            "ChDef": false,
+            "Qty": "100",
+            "UoM": "g",
+            "PType": 1,
+            "Intols": [],
+            "Nutrs": [
+                {
+                    "Id": 2,
+                    "Desc": "Energy (kCal)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 3,
+                    "Desc": "Protein (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 4,
+                    "Desc": "Carb (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 5,
+                    "Desc": "of which Sugars (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 8,
+                    "Desc": "Fat (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 9,
+                    "Desc": "Sat Fat (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 115,
+                    "Desc": "Salt (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                }
+            ]
+        }
+    ],
+    "Ingredients3": [],
+    "Ingredients4": [],
+    "Ingredients5": [],
+    "Ingredients6": [],
+    "Ingredients7": [
+        {
+            "Id": 50437,
+            "Name": "_test_ingredient a",
+            "RICost": "0.00",
+            "ICode": "123",
+            "ECode": "456",
+            "RCode": "",
+            "RUrl": "",
+            "ChDef": false,
+            "Qty": "5",
+            "UoM": "oz",
+            "PType": 1,
+            "Intols": [
+                {
+                    "Id": 11,
+                    "Val": "yes"
+                },
+                {
+                    "Id": 10,
+                    "Val": "unknown"
+                }
+            ],
+            "Nutrs": [
+                {
+                    "Id": 2,
+                    "Desc": "Energy (kCal)",
+                    "Per100g": "1,000",
+                    "PostFix": "cal"
+                },
+                {
+                    "Id": 3,
+                    "Desc": "Protein (g)",
+                    "Per100g": "0.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 4,
+                    "Desc": "Carb (g)",
+                    "Per100g": "35.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 5,
+                    "Desc": "of which Sugars (g)",
+                    "Per100g": "12.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 8,
+                    "Desc": "Fat (g)",
+                    "Per100g": "50.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 9,
+                    "Desc": "Sat Fat (g)",
+                    "Per100g": "20.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 115,
+                    "Desc": "Salt (g)",
+                    "Per100g": "0.0",
+                    "PostFix": "g"
+                }
+            ]
+        },
+        {
+            "Id": 50438,
+            "Name": "_test_ingredient b",
+            "RICost": "0.00",
+            "ICode": "",
+            "ECode": "",
+            "RCode": "",
+            "RUrl": "",
+            "ChDef": false,
+            "Qty": "200",
+            "UoM": "g",
+            "PType": 1,
+            "Intols": [
+                {
+                    "Id": 24,
+                    "Val": "maybe"
+                }
+            ],
+            "Nutrs": [
+                {
+                    "Id": 2,
+                    "Desc": "Energy (kCal)",
+                    "Per100g": "800",
+                    "PostFix": "cal"
+                },
+                {
+                    "Id": 3,
+                    "Desc": "Protein (g)",
+                    "Per100g": "100.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 4,
+                    "Desc": "Carb (g)",
+                    "Per100g": "0.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 5,
+                    "Desc": "of which Sugars (g)",
+                    "Per100g": "0.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 8,
+                    "Desc": "Fat (g)",
+                    "Per100g": "25.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 9,
+                    "Desc": "Sat Fat (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 115,
+                    "Desc": "Salt (g)",
+                    "Per100g": "0.0",
+                    "PostFix": "g"
+                }
+            ]
+        }
+    ],
+    "Ingredients8": [
+        {
+            "Id": 50377,
+            "Name": "_test_ingredient c",
+            "RICost": "10.00",
+            "ICode": "",
+            "ECode": "",
+            "RCode": "",
+            "RUrl": "",
+            "ChDef": false,
+            "Qty": "300",
+            "UoM": "g",
+            "PType": 1,
+            "Intols": [
+                {
+                    "Id": 50,
+                    "Val": "yes"
+                },
+                {
+                    "Id": 8,
+                    "Val": "yes"
+                }
+            ],
+            "Nutrs": [
+                {
+                    "Id": 2,
+                    "Desc": "Energy (kCal)",
+                    "Per100g": "1,200",
+                    "PostFix": "cal"
+                },
+                {
+                    "Id": 3,
+                    "Desc": "Protein (g)",
+                    "Per100g": "100.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 4,
+                    "Desc": "Carb (g)",
+                    "Per100g": "100.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 5,
+                    "Desc": "of which Sugars (g)",
+                    "Per100g": "30.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 8,
+                    "Desc": "Fat (g)",
+                    "Per100g": "50.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 9,
+                    "Desc": "Sat Fat (g)",
+                    "Per100g": "20.0",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 115,
+                    "Desc": "Salt (g)",
+                    "Per100g": "1.3",
+                    "PostFix": "g"
+                }
+            ]
+        },
+        {
+            "Id": 50592,
+            "Name": "_test_Menu description sub recipe",
+            "RICost": "0.00",
+            "ICode": "",
+            "ECode": "",
+            "RCode": "9530",
+            "RUrl": "",
+            "ChDef": false,
+            "Qty": "200",
+            "UoM": "g",
+            "PType": 2,
+            "Intols": [
+                {
+                    "Id": 50,
+                    "Val": "yes"
+                },
+                {
+                    "Id": 31,
+                    "Val": "unknown"
+                },
+                {
+                    "Id": 68,
+                    "Val": "maybe"
+                },
+                {
+                    "Id": 81,
+                    "Val": "yes",
+                    "ChIntols": [
+                        {
+                            "Id": 58,
+                            "Val": "maybe"
+                        },
+                        {
+                            "Id": 59,
+                            "Val": "yes"
+                        },
+                        {
+                            "Id": 61,
+                            "Val": "unknown"
+                        }
+                    ]
+                }
+            ],
+            "Nutrs": [
+                {
+                    "Id": 2,
+                    "Desc": "Energy (kCal)",
+                    "PerServ": "1,364",
+                    "Per100g": "682",
+                    "GdaPerc": "68.19",
+                    "PostFix": "cal"
+                },
+                {
+                    "Id": 3,
+                    "Desc": "Protein (g)",
+                    "PerServ": "36.1",
+                    "Per100g": "18.1",
+                    "GdaPerc": "72.23",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 4,
+                    "Desc": "Carb (g)",
+                    "PerServ": "40.3",
+                    "Per100g": "20.1",
+                    "GdaPerc": "15.48",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 5,
+                    "Desc": "of which Sugars (g)",
+                    "PerServ": "15.9",
+                    "Per100g": "8.0",
+                    "GdaPerc": "17.69",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 8,
+                    "Desc": "Fat (g)",
+                    "PerServ": "32.1",
+                    "Per100g": "16.1",
+                    "GdaPerc": "45.91",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 9,
+                    "Desc": "Sat Fat (g)",
+                    "PerServ": "4.8",
+                    "Per100g": "2.4",
+                    "GdaPerc": "24.08",
+                    "PostFix": "g"
+                },
+                {
+                    "Id": 115,
+                    "Desc": "Salt (g)",
+                    "PerServ": "3.0",
+                    "Per100g": "1.5",
+                    "GdaPerc": "50.16",
+                    "PostFix": "g"
+                }
+            ]
+        }
+    ],
+    "Ingredients9": [],
+    "Ingredients10": [
+        {
+            "Id": 50365,
+            "Name": "_test_All no ingredient",
+            "RICost": "0.00",
+            "ICode": "",
+            "ECode": "",
+            "RCode": "",
+            "RUrl": "",
+            "ChDef": false,
+            "Qty": "100",
+            "UoM": "g",
+            "PType": 1,
+            "Intols": [],
+            "Nutrs": [
+                {
+                    "Id": 2,
+                    "Desc": "Energy (kCal)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 3,
+                    "Desc": "Protein (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 4,
+                    "Desc": "Carb (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 5,
+                    "Desc": "of which Sugars (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 8,
+                    "Desc": "Fat (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 9,
+                    "Desc": "Sat Fat (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 115,
+                    "Desc": "Salt (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                }
+            ]
+        }
+    ],
+    "Ingredients11": [
+        {
+            "Id": 50365,
+            "Name": "_test_All no ingredient",
+            "RICost": "0.00",
+            "ICode": "",
+            "ECode": "",
+            "RCode": "",
+            "RUrl": "",
+            "ChDef": false,
+            "Qty": "100",
+            "UoM": "g",
+            "PType": 1,
+            "Intols": [],
+            "Nutrs": [
+                {
+                    "Id": 2,
+                    "Desc": "Energy (kCal)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 3,
+                    "Desc": "Protein (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 4,
+                    "Desc": "Carb (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 5,
+                    "Desc": "of which Sugars (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 8,
+                    "Desc": "Fat (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 9,
+                    "Desc": "Sat Fat (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                },
+                {
+                    "Id": 115,
+                    "Desc": "Salt (g)",
+                    "Per100g": "-",
+                    "PostFix": ""
+                }
+            ]
+        }
+    ],
+    "Ingredients12": []
+}

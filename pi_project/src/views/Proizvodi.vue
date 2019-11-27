@@ -4,7 +4,7 @@
 
     <!-- Izaberi proizvod -->
     <v-layout row wrap>
-      <v-flex md4 xs12 offset-sm4 class="my-3">
+      <v-flex md4 xs12 offset-sm4 class="my-3 px-5">
         <v-select
           v-model="select_proizvodi"
           :items="getAllProductTypes"

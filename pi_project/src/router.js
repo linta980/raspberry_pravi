@@ -10,6 +10,7 @@ import Vuexic from '../src/views/Vuexic'
 import Register from '../src/views/Register'
 import Proizvodi from '../src/views/Proizvodi'
 import Prodavnica from '../src/views/Prodavnica'
+import test from '../src/views/test'
 
 Vue.use(Router)
 
@@ -63,6 +64,11 @@ export default new Router({
       path: '/radnja',
       name: 'Prodavnica',
       component: Prodavnica
+    },
+    {
+      path: '/test',
+      name: 'test',
+      component: test
     },
 
   ]
